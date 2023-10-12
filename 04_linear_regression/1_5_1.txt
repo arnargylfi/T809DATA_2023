@@ -1,0 +1,1 @@
+The predictions doesn't seem very good, unless I don't know how to measure the accuracy. Looking at the plot generated at the end of the code, and looking at the error, computed as "error = abs(prediction-t)/t". The error is between 60-80.

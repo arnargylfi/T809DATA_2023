@@ -1,0 +1,17 @@
+    The batch estimate of the mean will not be exactly (0, 1, -1)
+due to random sampling but it should be close to it, and the closeness 
+will depend on the size of the dataset.
+The two parameters that can be used to make the estimate more accurate are:
+    Sample Size (n): Increasing the number of data points in your dataset 
+will lead to a more accurate estimate of the population mean. 
+The law of large numbers states that as the sample size increases, 
+the sample mean converges to the true population mean. So, collecting
+ more data points would improve the accuracy of your estimate.
+
+Standard Deviation (σ): Reducing the standard deviation of the data points
+ (in this case, reducing the value of sqrt(3)) 
+would also make the estimate more accurate. Smaller standard
+deviation means the data points are less spread out around
+the mean, making the estimate less variable.
+
+

@@ -1,4 +1,4 @@
-# Sequential Estimation
+<!-- # Sequential Estimation -->
 Online learning is very important in machine learning as it allows for the inclusion of new data samples without having to recalculate model parameters for the rest of the data. The aim of this exercise is to explore this concept.
 
 ## Section 1
