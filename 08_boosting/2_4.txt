@@ -1,0 +1,7 @@
+Again the default parameters given by sklearn were not changed due to 
+prioritizing simplicity. 
+This yielded 
+
+(0.8208955223880597, 0.8313253012048193, 0.6699029126213593)
+For the accuracy, precision and recall, respectively.
+This is superior to the random forest classifier. 

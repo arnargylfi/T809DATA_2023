@@ -1,0 +1,1 @@
+Replaced nan with the mean age, similar to how the cabin class was dealt with. 

@@ -1,0 +1,10 @@
+* According to the results from section 1.7, what is the best value of $k$ according to the objective function?
+According to minimizing the objective function, K = 10 is best, but we know that the correct amount of clusters is 3, and we can see from 
+the graph that there is a decrease in performance when jumping from 3 to 5 in low iteration numbers, but no significant change in higher iterations
+
+* If we have $n$ samples and we set $k=n$, what would happen?
+Then each sample would have it's own cluster, which is obviously not the goal
+there is no meaningful clustering. 
+* Is it a good strategy to set $k=n$? Why/Why not?
+No, because each data point would be issued its own cluster or group. 
+

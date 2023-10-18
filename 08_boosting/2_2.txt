@@ -1,0 +1,7 @@
+The default parameters in Sklearn were chosen (n - estimators = 100; criterion = "gini";  max_dept: = None; min_samples_split = 2; min_samples_leaf: = 1; min_weight_fraction_leaf: = 0; max_features: "sqrt", etc..) 
+  
+This yielded 
+Accuracy, Precision and recall: 
+(0.7985074626865671, 0.7525773195876289, 0.7087378640776699)
+I chose not to interfere with the default parameters because there 
+was no need and it is simplest. 

@@ -1,0 +1,14 @@
+def iris_kmeans_accuracy():
+    X, y, c = load_iris()
+    predictions = k_means_predict(X, y, c, 5)
+    
+    accuracy = accuracy_score(y, predictions)
+    confusion = confusion_matrix(y, predictions)
+    
+    return accuracy, confusion
+print(iris_kmeans_accuracy())
+
+Yields
+(0.8133333333333334, array([[50,  0,  0],
+       [11, 39,  0],
+       [17,  0, 33]]))
